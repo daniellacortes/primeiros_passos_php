@@ -1,6 +1,5 @@
 {
-    // "version": 2,
-    "functions": {
+      "functions": {
       "api/index.php": {
         "runtime": "vercel-php@0.4.4"
       }
@@ -12,7 +11,3 @@
       }
     ]
   }
-
-
-//   { "version": 2, "builds": [ { "src": "backend/main.py", "use": "@vercel/python" }, { "src": "frontend/**", "use": "@vercel/static" } ], "routes": [ { "src": "/s/(.*)", "dest": "frontend/$1" }, { "src": "/(.*)", "dest": "backend/main.py" } ] }
-  
