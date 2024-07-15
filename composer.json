@@ -1,6 +1,7 @@
 {
     "autoload": {
         "classmap": [
+            "Beecrowd/",
             "src/"
         ]
     },
