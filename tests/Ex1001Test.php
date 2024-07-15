@@ -7,6 +7,7 @@ final class Ex1001Test extends TestCase
         $A=5;
         $B = 6;
         $X= $A +$B;
+        $X = "X = $X\n";
         $soma = new Ex1001();
         $resultado = $soma->main($A, $B);
 
